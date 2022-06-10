@@ -13,7 +13,7 @@ import { NotFound } from './pages/NotFound';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename='/food-project'>
         <Header />
         <main className='container content'>
           <Switch>
